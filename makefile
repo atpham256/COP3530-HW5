@@ -1,5 +1,5 @@
 all:
-	${MAKE}  hw5prob1 hw5prob2
+	make hw5prob1 hw5prob2
 hw5prob1: hw5prob1.o
 	g++ -g -Wall -o hw5prob1 hw5prob1.o
 hw5prob1.o: hw5prob1.cpp
